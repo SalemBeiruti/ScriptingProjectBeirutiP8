@@ -13,7 +13,7 @@ public class ButtonInput : MonoBehaviour
     public Text boolDisplay1;
     public Text boolDisplay2;
     public Text boolDisplay3;
-    // Start is called before the first frame update
+    // Start is called before the first frame updat`e
     void Start()
     {
         graphic.sprite = standard;
