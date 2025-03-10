@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class AxisExample : MonoBehaviour
 {
     public float range;
-    public TextAlignment textOutput;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +18,7 @@ public class AxisExample : MonoBehaviour
         float h = Input.GetAxis("Horizontal");
         float xPos = h * range;
 
-        transform.position = new Vector3(xPos, 2f, 0);
+        transform.position = new Vector3(xPos, 4f, 0);
         Debug.Log("Value Returned: " + h.ToString("F2"));
     }
 }

@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class AxisRawExample : MonoBehaviour
 {
     public float range;
-    public Text textOutput;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +18,7 @@ public class AxisRawExample : MonoBehaviour
         float h = Input.GetAxis("Horizontal");
         float xPos = h * range;
 
-        transform.position = new Vector3(xPos, 2f, 0);
+        transform.position = new Vector3(xPos, 1f, 0);
         Debug.Log("Value Returned: " + h.ToString("F2"));
     }
 }

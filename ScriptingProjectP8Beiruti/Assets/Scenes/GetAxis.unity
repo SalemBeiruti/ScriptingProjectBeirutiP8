@@ -154,8 +154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 889fda1431fae5d4986f0a25fb1dc697, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 0
-  textOutput: 0
+  range: 4
 --- !u!135 &579608677
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -236,7 +235,7 @@ Transform:
   m_GameObject: {fileID: 579608675}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.86, y: 20.19393, z: -30}
+  m_LocalPosition: {x: 0, y: 7.33, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -330,7 +329,7 @@ Transform:
   m_GameObject: {fileID: 912945017}
   serializedVersion: 2
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 0, y: 11.82, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -422,7 +421,7 @@ Transform:
   m_GameObject: {fileID: 963773979}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: 0.36, z: -11.91}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -460,8 +459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6cca69c6aa9f1f47bd85c571a18a68a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 0
-  textOutput: {fileID: 0}
+  range: 2
 --- !u!136 &1831901438
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -544,7 +542,7 @@ Transform:
   m_GameObject: {fileID: 1831901436}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.67, y: 20.19393, z: -30}
+  m_LocalPosition: {x: 0, y: 1.14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -582,11 +580,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7cc2fef04cc72a4fa232cd4d09878ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  horizontalValueDisplayText: {fileID: 0}
-  verticalValueDisplayText: {fileID: 0}
-  hRange: 0
-  vRange: 0
-  vPos: 0
+  hRange: 2
+  vRange: 2
 --- !u!65 &1872613438
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -667,7 +662,7 @@ Transform:
   m_GameObject: {fileID: 1872613436}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.63, y: 20.19393, z: -30}
+  m_LocalPosition: {x: 0, y: -1.88, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
